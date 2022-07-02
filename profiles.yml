@@ -1,0 +1,7 @@
+duckdbseed:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: './chinook.duckdb'
+      threads: 4
